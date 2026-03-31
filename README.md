@@ -31,7 +31,6 @@ secure-cloud-vault/
 │
 ├── app.py
 ├── requirements.txt
-├── report.pdf
 └── README.md
 ```
 
