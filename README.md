@@ -1,23 +1,23 @@
-# ☁️ Secure Cloud Vault (AWS + Flask)
+#  Secure Cloud Vault (AWS + Flask)
 
-## 📌 Overview
+##  Overview
 Secure Cloud Vault is a **cloud-based file management system** built using **Flask and AWS S3**.  
 It allows users to securely upload, download, and manage files with support for **versioning and access control**.
 
 ---
 
-## 🚀 Features
-- 🔐 User Authentication (Login system)
-- 📤 Upload files to AWS S3
-- 📥 Download files
-- 📂 View uploaded files
-- 🔄 File Versioning (V1, V2, V3…)
-- ☁️ Cloud storage using AWS S3
-- 🔓 Session-based access control
+##  Features
+-  User Authentication (Login system)
+-  Upload files to AWS S3
+-  Download files
+-  View uploaded files
+-  File Versioning (V1, V2, V3…)
+-  Cloud storage using AWS S3
+-  Session-based access control
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 - **Backend:** Flask (Python)
 - **Cloud:** AWS S3
 - **SDK:** Boto3
@@ -25,7 +25,7 @@ It allows users to securely upload, download, and manage files with support for 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 secure-cloud-vault/
 │
@@ -36,16 +36,16 @@ secure-cloud-vault/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Install Dependencies
+### 1️ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-### 2️⃣ Configure AWS
+### 2️ Configure AWS
 - Create an S3 bucket  
 - Replace bucket name in `app.py`:
 ```python
@@ -59,21 +59,21 @@ aws configure
 
 ---
 
-### 3️⃣ Run the App
+### 3️ Run the App
 ```bash
 python app.py
 ```
 
 ---
 
-### 4️⃣ Open in Browser
+### 4️ Open in Browser
 ```
 http://localhost:5000
 ```
 
 ---
 
-## 🔐 Login Credentials
+##  Login Credentials
 ```
 Username: admin
 Password: admin123
@@ -81,7 +81,7 @@ Password: admin123
 
 ---
 
-## 🧪 How to Use
+##  How to Use
 1. Login using credentials  
 2. Upload file  
 3. View files  
@@ -90,7 +90,7 @@ Password: admin123
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 - Working with AWS S3 using Boto3  
 - Building web apps using Flask  
 - Implementing file upload/download systems  
@@ -98,7 +98,7 @@ Password: admin123
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Multi-user authentication  
 - File encryption  
 - Better UI (React/Bootstrap)  
@@ -106,11 +106,11 @@ Password: admin123
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Mehar Arora**  
  
 
 ---
 
-## ⭐ Note
+##  Note
 This project demonstrates a real-world implementation of a cloud-based file storage system using AWS.
